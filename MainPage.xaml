@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="HelloMessageC.MainPage">
+  <ContentPage.Content>
+        <StackLayout>
+            <Button x:Name="topButton" 
+                Text="Test" BackgroundColor="Black" TextColor="Cornsilk" FontSize="15"
+                Clicked="OnTopButtonPress">
+            </Button>
+
+            <Label x:Name="textLabel"
+                Text="0"
+                VerticalOptions="CenterAndExpand"
+                HorizontalOptions="CenterAndExpand" />
+            
+            <Button x:Name="bottomButton" 
+                Text="Connect" BackgroundColor="Cornsilk" TextColor="Black" FontSize="15"
+                Clicked="OnBottomButtonPress">
+            </Button>
+
+        </StackLayout>
+  </ContentPage.Content>
+</ContentPage>
